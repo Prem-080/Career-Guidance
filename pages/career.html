@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Page</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/styles.css">
+
+</head>
+<body> 
+
+
+    <div class="biases mx-auto mt-20 w-2/3">
+        <h1 class="font-bold text-3xl">Impact of Psychology on Career</h1>
+        Psychology significantly impacts career guidance by providing a framework to understand an individual's motivations, values, interests, and personality traits, which are crucial factors when making career decisions; it also helps to understand the biases that may influence career choices.
+
+        <h2 class="font-bold text-2xl mt-10">Personality Assessments</h2>
+        <ul class="list-disc ml-5"></ul>
+            <li><strong>Myers-Briggs Type Indicator (MBTI):</strong> This assessment categorizes individuals into 16 personality types based on preferences in four dichotomies (Introversion/Extraversion, Sensing/Intuition, Thinking/Feeling, Judging/Perceiving). It helps individuals understand their personality traits and how they relate to potential career paths.</li>
+            <li><strong>Big Five Personality Traits (OCEAN):</strong> This model assesses individuals on five dimensions: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Understanding these traits can help individuals identify suitable work environments and roles.</li>
+        </ul>
+
+        <h2 class="font-bold text-2xl mt-10">Interest Inventories</h2>
+        <ul class="list-disc ml-5">
+            <li><strong>Holland Code (RIASEC) Test:</strong> Developed by John Holland, this assessment categorizes interests into six types (Realistic, Investigative, Artistic, Social, Enterprising, Conventional). It helps individuals find careers that align with their interests and preferred work environments.</li>
+            <li><strong>Strong Interest Inventory:</strong> This tool measures an individual's interests in various occupations and compares them to those of satisfied workers in different fields, providing insights into potential career matches.</li>
+        </ul>
+
+        <h2 class="font-bold text-2xl mt-10">Aptitude Tests</h2>
+        <ul class="list-disc ml-5">
+            <li><strong>General Aptitude Test Battery (GATB):</strong> This test measures a range of cognitive abilities, including verbal, numerical, and spatial reasoning. It helps identify areas of strength that can guide career choices.</li>
+            <li><strong>Differential Aptitude Tests (DAT):</strong> These tests assess specific aptitudes related to various careers, such as mechanical reasoning, clerical speed, and abstract reasoning.</li>
+        </ul>
+
+        <h2 class="font-bold text-2xl mt-10">Values Assessments</h2>
+        <ul class="list-disc ml-5">
+            <li><strong>Work Values Inventory:</strong> This assessment helps individuals identify their core values related to work, such as achievement, independence, and recognition. Understanding these values can guide career choices that align with personal priorities.</li>
+            <li><strong>Career Values Scale</strong>This tool assesses what individuals value most in their work life, helping them find careers that fulfill those values.
+            </li>
+        </ul>
+
+        <h2 class="font-bold text-2xl mt-10">Self-Assessment Tools</h2>
+        <ul class="list-disc ml-5">
+            <li><strong>StrengthsFinder:</strong> This assessment identifies an individual's top strengths, helping them understand how to leverage these strengths in their career.</li>
+            <li><strong>Career Anchors:</strong> Developed by Edgar Schein, this assessment helps individuals identify their career anchors, or the values and motivations that guide their career decisions.</li>
+        </ul>
+
+        <h2 class="font-bold text-2xl mt-10">Emotional Intelligence Assessments</h2>
+        <ul class="list-disc ml-5">
+            <li><strong>Emotional Quotient Inventory (EQ-i):</strong> This assessment measures emotional intelligence, which can be crucial for success in various careers, particularly those involving teamwork and leadership.</li>
+            <li><strong>Mayer-Salovey-Caruso Emotional Intelligence Test (MSCEIT):</strong> This test assesses emotional intelligence through tasks that measure the ability to perceive, use, understand, and manage emotions.</li>
+        </ul>
+
+        <h2 class="font-bold text-2xl mt-10">Career Development Assessments</h2>
+        <ul class="list-disc ml-5">
+            <li><strong>Career Decision-Making Scale (CDM):</strong> This tool assesses an individual's confidence in their ability to make career decisions, helping identify areas where they may need support or guidance.</li>
+            <li><strong>Self-Directed Search (SDS):</strong> Developed by John Holland, this assessment helps individuals explore their interests and match them with potential career options.</li>
+        </ul>
+    </div>
+    <div class="form w-1/3 mx-auto mt-20">
+
+        <h1 class="font-bold text-3xl">Ready to Explore Your Career Path?</h1>
+        <p class="text-gray-700 text-lg mt-4">Take the first step by completing our career assessment form to receive personalized career guidance based on your interests, values, and aptitudes.</p>
+            <div class="flex items-center justify-center">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" id="continue">
+                Continue ->
+                </button>
+
+            </div>
+    </div>
+
+    <script>
+        const continueButton = document.getElementById('continue');
+        continueButton.addEventListener('click', () => {
+            window.location.href = '/pages/form.html';
+        });
+    </script>
+</body>
+</html>
